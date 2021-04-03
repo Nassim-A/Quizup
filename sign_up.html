@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="description" content="Ideal template for game-related websites (gaming, communities, clans, guilds, news and entertainment content) but also for technology, CV or personal pages. Smart and compact. It's able to completely meet your needs. Unique design will increase the value of your page!">
+    <meta name="keywords" content="template, theme, html, css, bootstrap, game, event, culture, music, personal, cv">
+    <meta name="author" content="Jakub Kwarciński">
+
+    <title>QuizUp - Sign up</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P%7CLato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+
+    <!-- Lightbox styles -->
+    <link href="assets/lightbox2-master/dist/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Loaders styles -->
+    <link href="assets/loaders.css-master/loaders.min.css" media="screen" rel="stylesheet" type="text/css">
+
+    <!-- Template styles -->
+    <link href="css/yellow.min.css" media="screen" rel="stylesheet" type="text/css" title="yellow">
+    <link href="css/pink.min.css" media="screen" rel="alternate stylesheet" type="text/css" title="pink">
+    <link href="css/orange.min.css" media="screen" rel="alternate stylesheet" type="text/css" title="orange">
+    <link href="css/red.min.css" media="screen" rel="alternate stylesheet" type="text/css" title="red">
+    <link href="css/green.min.css" media="screen" rel="alternate stylesheet" type="text/css" title="green">
+    <link href="css/blue.min.css" media="screen" rel="alternate stylesheet" type="text/css" title="blue">
+
+    <!-- Modernizr -->
+    <script type="text/javascript" src="js/modernizr-custom.min.js"></script>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.png" type="image/png">
+
+</head>
+
+<body data-spy="scroll" data-offset="122" data-target="#main-menu" data-skrollr="true">
+
+    <!-- Preloader -->
+    <div class="loader-overlay">
+        <div class="loader">
+            <div class="loader-inner pacman">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <h3 class="loader-text">Loading</h3>
+        </div>
+    </div>
+
+    <!-- Color switcher -->
+    <div class="sidebar">
+        <a class="sidebar-switcher" href="#" title="Color switcher">
+            <i class="fa fa-gear"></i>
+        </a>
+        <div class="sidebar-content">
+            <h4 class="sidebar-header">Color switcher</h4>
+            <a href="#" class="color-switcher bg-yellow" data-color="yellow"></a>
+            <a href="#" class="color-switcher bg-orange" data-color="orange"></a>
+            <a href="#" class="color-switcher bg-pink" data-color="pink"></a>
+            <a href="#" class="color-switcher bg-red" data-color="red"></a>
+            <a href="#" class="color-switcher bg-green" data-color="green"></a>
+            <a href="#" class="color-switcher bg-blue" data-color="blue"></a>
+        </div>
+    </div>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="triangle">
+            <i class="fa fa-angle-double-down" aria-hidden="true"></i>
+        </div>
+        <!-- Topbar -->
+        <div class="header-top clearfix">
+            <div class="container">
+                <!--
+                <ul class="list-inline social-links">
+                    <li>
+                        <a href="#" title="Twitter"><i class="fa fa-twitter"></i></a>
+                    </li><li class="hidden-xs">
+                        <a href="#" title="Skype"><i class="fa fa-skype"></i></a>
+                    </li><li class="hidden-xxs">
+                        <a href="#" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+                    </li><li class="hidden-xxs">
+                        <a href="#" title="Google +"><i class="fa fa-google-plus"></i></a>
+                    </li><li>
+                        <a href="#" title="Youtube"><i class="fa fa-youtube-play"></i></a>
+                    </li><li>
+                        <a href="#" title="Facebook"><i class="fa fa-facebook"></i></a>
+                    </li>
+                </ul> -->
+                <div class="header-top-dropdown">
+                    <div class="btn-group dropdown">
+                        <button type="button" class="btn btn-link dropdown-toggle" data-toggle="dropdown">
+                            <span class="text"><i class="fa fa-user"></i> Login</span>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-right">
+                            <li>
+                                <form class="login-form" action="#">
+                                    <div class="form-group has-feedback">
+                                        <input type="text" class="form-control" placeholder="Username">
+                                        <i class="fa fa-user form-control-feedback"></i>
+                                    </div>
+                                    <div class="form-group has-feedback">
+                                        <input type="password" class="form-control" placeholder="Password">
+                                        <i class="fa fa-lock form-control-feedback"></i>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary btn-block">
+                                        <span class="text">Log In <i class="fa fa-arrow-right"></i></span>
+                                    </button>
+                                    <h3 class="text-center">or</h3>
+                                    <a href="sign_up.html">
+                                        <button type="button" class="btn btn-primary btn-block">
+                                            <span class="text">Sign Up <i class="fa fa-arrow-right"></i></span>
+                                        </button>
+                                    </a>
+                                    <p class="text-center"><a href="#" title="Reset password">Forgot your password?</a></p>
+                                    <h3 class="text-center">Sign in with your social account</h3>
+                                    <ul class="list-inline text-center">
+                                        <li>
+                                            <a href="#" title="Login with Facebook"><span class="icon-circle-small"><i class="fa fa-facebook"></i></span></a>
+                                        </li><li>
+                                            <a href="#" title="Login with Twitter"><span class="icon-circle-small"><i class="fa fa-twitter"></i></span></a>
+                                        </li><li>
+                                            <a href="#" title="Login with Google +"><span class="icon-circle-small"><i class="fa fa-google-plus"></i></span></a>
+                                        </li>
+                                    </ul>
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div><!-- Topbar end -->
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-menu">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- Logo -->
+                <a class="navbar-brand" href="index.html" title="GameR">
+                    <i class="fa fa-question-circle-o" aria-hidden="true"></i><span class="main-color">Q</span>uiz<span class="main-color">Up</span>
+                </a><!-- Logo end -->
+            </div>
+        </div>
+    </div><!-- Navbar end -->
+
+    <!-- Section send us message (contact form) -->
+    <div class="standard-section section-promo section-send-us-message" id="send-us-message">
+        <div class="triangle triangle-up" data-100p-top="top[swing]:-54px" data-75p-top="top[swing]:-24px">
+            <i class="fa fa-plus" aria-hidden="true"></i>
+        </div>
+        <div class="triangle triangle-down" data-100p-top="bottom[swing]:-70px" data-75p-top="bottom[swing]:-40px">
+            <i class="fa fa-plus" aria-hidden="true"></i>
+        </div>
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="text-center">
+                <h3 class="standard-subheader bracket" data-100p-top="transform[swing]:translateX(-25px);opacity[swing]:0" data-75p-top="transform[swing]:translateX(0);opacity[swing]:1">keep in touch </h3>
+                <h2 class="standard-header" data-100p-top="transform[swing]:translateX(25px);opacity[swing]:0" data-75p-top="transform[swing]:translateX(0);opacity[swing]:1"><br/>Sign up</h2>
+            </div>
+            <div class="text-center" data-100p-top="transform[swing]:translateX(-50px);opacity[swing]:0" data-75p-top="transform[swing]:translateX(0);opacity[swing]:1">
+                <div class="section-icon"><span><i class="fa fa-user-plus"></i></span></div>
+            </div>
+            <form class="form-container form" method="POST" action="#">
+                <div class="overlay"></div>
+                <div class="form-content">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-md-offset-3">
+                            <div data-100p-top="transform[swing]:translateX(-25px);opacity[swing]:0" data-75p-top="transform[swing]:translateX(0);opacity[swing]:1">
+                                <div class="form-group has-feedback">
+                                    <input type="text" class="form-control" placeholder="Enter username">
+                                    <span class="glyphicon glyphicon-user form-control-feedback"></span>
+                                </div>
+                                <div class="form-group has-feedback">
+                                    <input type="email" class="form-control" placeholder="Enter email">
+                                    <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+                                </div>
+                                <div class="form-group has-feedback">
+                                    <input type="password" class="form-control" placeholder="Enter password">
+                                    <span class="fa fa-lock form-control-feedback"></span>
+                                </div>
+                                <div class="form-group has-feedback">
+                                    <input type="password" class="form-control" placeholder="Confirm password">
+                                    <span class="glyphicon glyphicon-asterisk form-control-feedback"></span>
+                                </div>
+                                <div class="form-group has-feedback">
+                                    <select id="country" name="country" class="form-control" style="-webkit-appearance: none; -moz-appearance:none;">
+                                        <option class="main-color" style="background-color:black" value="" disabled selected>Select your country</option>
+                                        <option class="main-color" style="background-color:black" value="Afghanistan">Afghanistan</option>
+                                        <option class="main-color" style="background-color:black" value="Åland Islands">Åland Islands</option>
+                                        <option class="main-color" style="background-color:black" value="Albania">Albania</option>
+                                        <option class="main-color" style="background-color:black" value="Algeria">Algeria</option>
+                                        <option class="main-color" style="background-color:black" value="American Samoa">American Samoa</option>
+                                        <option class="main-color" style="background-color:black" value="Andorra">Andorra</option>
+                                        <option class="main-color" style="background-color:black" value="Angola">Angola</option>
+                                        <option class="main-color" style="background-color:black" value="Anguilla">Anguilla</option>
+                                        <option class="main-color" style="background-color:black" value="Antarctica">Antarctica</option>
+                                        <option class="main-color" style="background-color:black" value="Antigua and Barbuda">Antigua and Barbuda</option>
+                                        <option class="main-color" style="background-color:black" value="Argentina">Argentina</option>
+                                        <option class="main-color" style="background-color:black" value="Armenia">Armenia</option>
+                                        <option class="main-color" style="background-color:black" value="Aruba">Aruba</option>
+                                        <option class="main-color" style="background-color:black" value="Australia">Australia</option>
+                                        <option class="main-color" style="background-color:black" value="Austria">Austria</option>
+                                        <option class="main-color" style="background-color:black" value="Azerbaijan">Azerbaijan</option>
+                                        <option class="main-color" style="background-color:black" value="Bahamas">Bahamas</option>
+                                        <option class="main-color" style="background-color:black" value="Bahrain">Bahrain</option>
+                                        <option class="main-color" style="background-color:black" value="Bangladesh">Bangladesh</option>
+                                        <option class="main-color" style="background-color:black" value="Barbados">Barbados</option>
+                                        <option class="main-color" style="background-color:black" value="Belarus">Belarus</option>
+                                        <option class="main-color" style="background-color:black" value="Belgium">Belgium</option>
+                                        <option class="main-color" style="background-color:black" value="Belize">Belize</option>
+                                        <option class="main-color" style="background-color:black" value="Benin">Benin</option>
+                                        <option class="main-color" style="background-color:black" value="Bermuda">Bermuda</option>
+                                        <option class="main-color" style="background-color:black" value="Bhutan">Bhutan</option>
+                                        <option class="main-color" style="background-color:black" value="Bolivia">Bolivia</option>
+                                        <option class="main-color" style="background-color:black" value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+                                        <option class="main-color" style="background-color:black" value="Botswana">Botswana</option>
+                                        <option class="main-color" style="background-color:black" value="Bouvet Island">Bouvet Island</option>
+                                        <option class="main-color" style="background-color:black" value="Brazil">Brazil</option>
+                                        <option class="main-color" style="background-color:black" value="British Indian Ocean Territory">British Indian Ocean Territory</option>
+                                        <option class="main-color" style="background-color:black" value="Brunei Darussalam">Brunei Darussalam</option>
+                                        <option class="main-color" style="background-color:black" value="Bulgaria">Bulgaria</option>
+                                        <option class="main-color" style="background-color:black" value="Burkina Faso">Burkina Faso</option>
+                                        <option class="main-color" style="background-color:black" value="Burundi">Burundi</option>
+                                        <option class="main-color" style="background-color:black" value="Cambodia">Cambodia</option>
+                                        <option class="main-color" style="background-color:black" value="Cameroon">Cameroon</option>
+                                        <option class="main-color" style="background-color:black" value="Canada">Canada</option>
+                                        <option class="main-color" style="background-color:black" value="Cape Verde">Cape Verde</option>
+                                        <option class="main-color" style="background-color:black" value="Cayman Islands">Cayman Islands</option>
+                                        <option class="main-color" style="background-color:black" value="Central African Republic">Central African Republic</option>
+                                        <option class="main-color" style="background-color:black" value="Chad">Chad</option>
+                                        <option class="main-color" style="background-color:black" value="Chile">Chile</option>
+                                        <option class="main-color" style="background-color:black" value="China">China</option>
+                                        <option class="main-color" style="background-color:black" value="Christmas Island">Christmas Island</option>
+                                        <option class="main-color" style="background-color:black" value="Cocos (Keeling) Islands">Cocos (Keeling) Islands</option>
+                                        <option class="main-color" style="background-color:black" value="Colombia">Colombia</option>
+                                        <option class="main-color" style="background-color:black" value="Comoros">Comoros</option>
+                                        <option class="main-color" style="background-color:black" value="Congo">Congo</option>
+                                        <option class="main-color" style="background-color:black" value="Congo, The Democratic Republic of The">Congo, The Democratic Republic of The</option>
+                                        <option class="main-color" style="background-color:black" value="Cook Islands">Cook Islands</option>
+                                        <option class="main-color" style="background-color:black" value="Costa Rica">Costa Rica</option>
+                                        <option class="main-color" style="background-color:black" value="Cote D'ivoire">Cote D'ivoire</option>
+                                        <option class="main-color" style="background-color:black" value="Croatia">Croatia</option>
+                                        <option class="main-color" style="background-color:black" value="Cuba">Cuba</option>
+                                        <option class="main-color" style="background-color:black" value="Cyprus">Cyprus</option>
+                                        <option class="main-color" style="background-color:black" value="Czech Republic">Czech Republic</option>
+                                        <option class="main-color" style="background-color:black" value="Denmark">Denmark</option>
+                                        <option class="main-color" style="background-color:black" value="Djibouti">Djibouti</option>
+                                        <option class="main-color" style="background-color:black" value="Dominica">Dominica</option>
+                                        <option class="main-color" style="background-color:black" value="Dominican Republic">Dominican Republic</option>
+                                        <option class="main-color" style="background-color:black" value="Ecuador">Ecuador</option>
+                                        <option class="main-color" style="background-color:black" value="Egypt">Egypt</option>
+                                        <option class="main-color" style="background-color:black" value="El Salvador">El Salvador</option>
+                                        <option class="main-color" style="background-color:black" value="Equatorial Guinea">Equatorial Guinea</option>
+                                        <option class="main-color" style="background-color:black" value="Eritrea">Eritrea</option>
+                                        <option class="main-color" style="background-color:black" value="Estonia">Estonia</option>
+                                        <option class="main-color" style="background-color:black" value="Ethiopia">Ethiopia</option>
+                                        <option class="main-color" style="background-color:black" value="Falkland Islands (Malvinas)">Falkland Islands (Malvinas)</option>
+                                        <option class="main-color" style="background-color:black" value="Faroe Islands">Faroe Islands</option>
+                                        <option class="main-color" style="background-color:black" value="Fiji">Fiji</option>
+                                        <option class="main-color" style="background-color:black" value="Finland">Finland</option>
+                                        <option class="main-color" style="background-color:black" value="France">France</option>
+                                        <option class="main-color" style="background-color:black" value="French Guiana">French Guiana</option>
+                                        <option class="main-color" style="background-color:black" value="French Polynesia">French Polynesia</option>
+                                        <option class="main-color" style="background-color:black" value="French Southern Territories">French Southern Territories</option>
+                                        <option class="main-color" style="background-color:black" value="Gabon">Gabon</option>
+                                        <option class="main-color" style="background-color:black" value="Gambia">Gambia</option>
+                                        <option class="main-color" style="background-color:black" value="Georgia">Georgia</option>
+                                        <option class="main-color" style="background-color:black" value="Germany">Germany</option>
+                                        <option class="main-color" style="background-color:black" value="Ghana">Ghana</option>
+                                        <option class="main-color" style="background-color:black" value="Gibraltar">Gibraltar</option>
+                                        <option class="main-color" style="background-color:black" value="Greece">Greece</option>
+                                        <option class="main-color" style="background-color:black" value="Greenland">Greenland</option>
+                                        <option class="main-color" style="background-color:black" value="Grenada">Grenada</option>
+                                        <option class="main-color" style="background-color:black" value="Guadeloupe">Guadeloupe</option>
+                                        <option class="main-color" style="background-color:black" value="Guam">Guam</option>
+                                        <option class="main-color" style="background-color:black" value="Guatemala">Guatemala</option>
+                                        <option class="main-color" style="background-color:black" value="Guernsey">Guernsey</option>
+                                        <option class="main-color" style="background-color:black" value="Guinea">Guinea</option>
+                                        <option class="main-color" style="background-color:black" value="Guinea-bissau">Guinea-bissau</option>
+                                        <option class="main-color" style="background-color:black" value="Guyana">Guyana</option>
+                                        <option class="main-color" style="background-color:black" value="Haiti">Haiti</option>
+                                        <option class="main-color" style="background-color:black" value="Heard Island and Mcdonald Islands">Heard Island and Mcdonald Islands</option>
+                                        <option class="main-color" style="background-color:black" value="Holy See (Vatican City State)">Holy See (Vatican City State)</option>
+                                        <option class="main-color" style="background-color:black" value="Honduras">Honduras</option>
+                                        <option class="main-color" style="background-color:black" value="Hong Kong">Hong Kong</option>
+                                        <option class="main-color" style="background-color:black" value="Hungary">Hungary</option>
+                                        <option class="main-color" style="background-color:black" value="Iceland">Iceland</option>
+                                        <option class="main-color" style="background-color:black" value="India">India</option>
+                                        <option class="main-color" style="background-color:black" value="Indonesia">Indonesia</option>
+                                        <option class="main-color" style="background-color:black" value="Iran, Islamic Republic of">Iran, Islamic Republic of</option>
+                                        <option class="main-color" style="background-color:black" value="Iraq">Iraq</option>
+                                        <option class="main-color" style="background-color:black" value="Ireland">Ireland</option>
+                                        <option class="main-color" style="background-color:black" value="Isle of Man">Isle of Man</option>
+                                        <option class="main-color" style="background-color:black" value="Israel">Israel</option>
+                                        <option class="main-color" style="background-color:black" value="Italy">Italy</option>
+                                        <option class="main-color" style="background-color:black" value="Jamaica">Jamaica</option>
+                                        <option class="main-color" style="background-color:black" value="Japan">Japan</option>
+                                        <option class="main-color" style="background-color:black" value="Jersey">Jersey</option>
+                                        <option class="main-color" style="background-color:black" value="Jordan">Jordan</option>
+                                        <option class="main-color" style="background-color:black" value="Kazakhstan">Kazakhstan</option>
+                                        <option class="main-color" style="background-color:black" value="Kenya">Kenya</option>
+                                        <option class="main-color" style="background-color:black" value="Kiribati">Kiribati</option>
+                                        <option class="main-color" style="background-color:black" value="Korea, Democratic People's Republic of">Korea, Democratic People's Republic of</option>
+                                        <option class="main-color" style="background-color:black" value="Korea, Republic of">Korea, Republic of</option>
+                                        <option class="main-color" style="background-color:black" value="Kuwait">Kuwait</option>
+                                        <option class="main-color" style="background-color:black" value="Kyrgyzstan">Kyrgyzstan</option>
+                                        <option class="main-color" style="background-color:black" value="Lao People's Democratic Republic">Lao People's Democratic Republic</option>
+                                        <option class="main-color" style="background-color:black" value="Latvia">Latvia</option>
+                                        <option class="main-color" style="background-color:black" value="Lebanon">Lebanon</option>
+                                        <option class="main-color" style="background-color:black" value="Lesotho">Lesotho</option>
+                                        <option class="main-color" style="background-color:black" value="Liberia">Liberia</option>
+                                        <option class="main-color" style="background-color:black" value="Libyan Arab Jamahiriya">Libyan Arab Jamahiriya</option>
+                                        <option class="main-color" style="background-color:black" value="Liechtenstein">Liechtenstein</option>
+                                        <option class="main-color" style="background-color:black" value="Lithuania">Lithuania</option>
+                                        <option class="main-color" style="background-color:black" value="Luxembourg">Luxembourg</option>
+                                        <option class="main-color" style="background-color:black" value="Macao">Macao</option>
+                                        <option class="main-color" style="background-color:black" value="Macedonia, The Former Yugoslav Republic of">Macedonia, The Former Yugoslav Republic of</option>
+                                        <option class="main-color" style="background-color:black" value="Madagascar">Madagascar</option>
+                                        <option class="main-color" style="background-color:black" value="Malawi">Malawi</option>
+                                        <option class="main-color" style="background-color:black" value="Malaysia">Malaysia</option>
+                                        <option class="main-color" style="background-color:black" value="Maldives">Maldives</option>
+                                        <option class="main-color" style="background-color:black" value="Mali">Mali</option>
+                                        <option class="main-color" style="background-color:black" value="Malta">Malta</option>
+                                        <option class="main-color" style="background-color:black" value="Marshall Islands">Marshall Islands</option>
+                                        <option class="main-color" style="background-color:black" value="Martinique">Martinique</option>
+                                        <option class="main-color" style="background-color:black" value="Mauritania">Mauritania</option>
+                                        <option class="main-color" style="background-color:black" value="Mauritius">Mauritius</option>
+                                        <option class="main-color" style="background-color:black" value="Mayotte">Mayotte</option>
+                                        <option class="main-color" style="background-color:black" value="Mexico">Mexico</option>
+                                        <option class="main-color" style="background-color:black" value="Micronesia, Federated States of">Micronesia, Federated States of</option>
+                                        <option class="main-color" style="background-color:black" value="Moldova, Republic of">Moldova, Republic of</option>
+                                        <option class="main-color" style="background-color:black" value="Monaco">Monaco</option>
+                                        <option class="main-color" style="background-color:black" value="Mongolia">Mongolia</option>
+                                        <option class="main-color" style="background-color:black" value="Montenegro">Montenegro</option>
+                                        <option class="main-color" style="background-color:black" value="Montserrat">Montserrat</option>
+                                        <option class="main-color" style="background-color:black" value="Morocco">Morocco</option>
+                                        <option class="main-color" style="background-color:black" value="Mozambique">Mozambique</option>
+                                        <option class="main-color" style="background-color:black" value="Myanmar">Myanmar</option>
+                                        <option class="main-color" style="background-color:black" value="Namibia">Namibia</option>
+                                        <option class="main-color" style="background-color:black" value="Nauru">Nauru</option>
+                                        <option class="main-color" style="background-color:black" value="Nepal">Nepal</option>
+                                        <option class="main-color" style="background-color:black" value="Netherlands">Netherlands</option>
+                                        <option class="main-color" style="background-color:black" value="Netherlands Antilles">Netherlands Antilles</option>
+                                        <option class="main-color" style="background-color:black" value="New Caledonia">New Caledonia</option>
+                                        <option class="main-color" style="background-color:black" value="New Zealand">New Zealand</option>
+                                        <option class="main-color" style="background-color:black" value="Nicaragua">Nicaragua</option>
+                                        <option class="main-color" style="background-color:black" value="Niger">Niger</option>
+                                        <option class="main-color" style="background-color:black" value="Nigeria">Nigeria</option>
+                                        <option class="main-color" style="background-color:black" value="Niue">Niue</option>
+                                        <option class="main-color" style="background-color:black" value="Norfolk Island">Norfolk Island</option>
+                                        <option class="main-color" style="background-color:black" value="Northern Mariana Islands">Northern Mariana Islands</option>
+                                        <option class="main-color" style="background-color:black" value="Norway">Norway</option>
+                                        <option class="main-color" style="background-color:black" value="Oman">Oman</option>
+                                        <option class="main-color" style="background-color:black" value="Pakistan">Pakistan</option>
+                                        <option class="main-color" style="background-color:black" value="Palau">Palau</option>
+                                        <option class="main-color" style="background-color:black" value="Palestinian Territory, Occupied">Palestinian Territory, Occupied</option>
+                                        <option class="main-color" style="background-color:black" value="Panama">Panama</option>
+                                        <option class="main-color" style="background-color:black" value="Papua New Guinea">Papua New Guinea</option>
+                                        <option class="main-color" style="background-color:black" value="Paraguay">Paraguay</option>
+                                        <option class="main-color" style="background-color:black" value="Peru">Peru</option>
+                                        <option class="main-color" style="background-color:black" value="Philippines">Philippines</option>
+                                        <option class="main-color" style="background-color:black" value="Pitcairn">Pitcairn</option>
+                                        <option class="main-color" style="background-color:black" value="Poland">Poland</option>
+                                        <option class="main-color" style="background-color:black" value="Portugal">Portugal</option>
+                                        <option class="main-color" style="background-color:black" value="Puerto Rico">Puerto Rico</option>
+                                        <option class="main-color" style="background-color:black" value="Qatar">Qatar</option>
+                                        <option class="main-color" style="background-color:black" value="Reunion">Reunion</option>
+                                        <option class="main-color" style="background-color:black" value="Romania">Romania</option>
+                                        <option class="main-color" style="background-color:black" value="Russian Federation">Russian Federation</option>
+                                        <option class="main-color" style="background-color:black" value="Rwanda">Rwanda</option>
+                                        <option class="main-color" style="background-color:black" value="Saint Helena">Saint Helena</option>
+                                        <option class="main-color" style="background-color:black" value="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
+                                        <option class="main-color" style="background-color:black" value="Saint Lucia">Saint Lucia</option>
+                                        <option class="main-color" style="background-color:black" value="Saint Pierre and Miquelon">Saint Pierre and Miquelon</option>
+                                        <option class="main-color" style="background-color:black" value="Saint Vincent and The Grenadines">Saint Vincent and The Grenadines</option>
+                                        <option class="main-color" style="background-color:black" value="Samoa">Samoa</option>
+                                        <option class="main-color" style="background-color:black" value="San Marino">San Marino</option>
+                                        <option class="main-color" style="background-color:black" value="Sao Tome and Principe">Sao Tome and Principe</option>
+                                        <option class="main-color" style="background-color:black" value="Saudi Arabia">Saudi Arabia</option>
+                                        <option class="main-color" style="background-color:black" value="Senegal">Senegal</option>
+                                        <option class="main-color" style="background-color:black" value="Serbia">Serbia</option>
+                                        <option class="main-color" style="background-color:black" value="Seychelles">Seychelles</option>
+                                        <option class="main-color" style="background-color:black" value="Sierra Leone">Sierra Leone</option>
+                                        <option class="main-color" style="background-color:black" value="Singapore">Singapore</option>
+                                        <option class="main-color" style="background-color:black" value="Slovakia">Slovakia</option>
+                                        <option class="main-color" style="background-color:black" value="Slovenia">Slovenia</option>
+                                        <option class="main-color" style="background-color:black" value="Solomon Islands">Solomon Islands</option>
+                                        <option class="main-color" style="background-color:black" value="Somalia">Somalia</option>
+                                        <option class="main-color" style="background-color:black" value="South Africa">South Africa</option>
+                                        <option class="main-color" style="background-color:black" value="South Georgia and The South Sandwich Islands">South Georgia and The South Sandwich Islands</option>
+                                        <option class="main-color" style="background-color:black" value="Spain">Spain</option>
+                                        <option class="main-color" style="background-color:black" value="Sri Lanka">Sri Lanka</option>
+                                        <option class="main-color" style="background-color:black" value="Sudan">Sudan</option>
+                                        <option class="main-color" style="background-color:black" value="Suriname">Suriname</option>
+                                        <option class="main-color" style="background-color:black" value="Svalbard and Jan Mayen">Svalbard and Jan Mayen</option>
+                                        <option class="main-color" style="background-color:black" value="Swaziland">Swaziland</option>
+                                        <option class="main-color" style="background-color:black" value="Sweden">Sweden</option>
+                                        <option class="main-color" style="background-color:black" value="Switzerland">Switzerland</option>
+                                        <option class="main-color" style="background-color:black" value="Syrian Arab Republic">Syrian Arab Republic</option>
+                                        <option class="main-color" style="background-color:black" value="Taiwan, Province of China">Taiwan, Province of China</option>
+                                        <option class="main-color" style="background-color:black" value="Tajikistan">Tajikistan</option>
+                                        <option class="main-color" style="background-color:black" value="Tanzania, United Republic of">Tanzania, United Republic of</option>
+                                        <option class="main-color" style="background-color:black" value="Thailand">Thailand</option>
+                                        <option class="main-color" style="background-color:black" value="Timor-leste">Timor-leste</option>
+                                        <option class="main-color" style="background-color:black" value="Togo">Togo</option>
+                                        <option class="main-color" style="background-color:black" value="Tokelau">Tokelau</option>
+                                        <option class="main-color" style="background-color:black" value="Tonga">Tonga</option>
+                                        <option class="main-color" style="background-color:black" value="Trinidad and Tobago">Trinidad and Tobago</option>
+                                        <option class="main-color" style="background-color:black" value="Tunisia">Tunisia</option>
+                                        <option class="main-color" style="background-color:black" value="Turkey">Turkey</option>
+                                        <option class="main-color" style="background-color:black" value="Turkmenistan">Turkmenistan</option>
+                                        <option class="main-color" style="background-color:black" value="Turks and Caicos Islands">Turks and Caicos Islands</option>
+                                        <option class="main-color" style="background-color:black" value="Tuvalu">Tuvalu</option>
+                                        <option class="main-color" style="background-color:black" value="Uganda">Uganda</option>
+                                        <option class="main-color" style="background-color:black" value="Ukraine">Ukraine</option>
+                                        <option class="main-color" style="background-color:black" value="United Arab Emirates">United Arab Emirates</option>
+                                        <option class="main-color" style="background-color:black" value="United Kingdom">United Kingdom</option>
+                                        <option class="main-color" style="background-color:black" value="United States">United States</option>
+                                        <option class="main-color" style="background-color:black" value="United States Minor Outlying Islands">United States Minor Outlying Islands</option>
+                                        <option class="main-color" style="background-color:black" value="Uruguay">Uruguay</option>
+                                        <option class="main-color" style="background-color:black" value="Uzbekistan">Uzbekistan</option>
+                                        <option class="main-color" style="background-color:black" value="Vanuatu">Vanuatu</option>
+                                        <option class="main-color" style="background-color:black" value="Venezuela">Venezuela</option>
+                                        <option class="main-color" style="background-color:black" value="Viet Nam">Viet Nam</option>
+                                        <option class="main-color" style="background-color:black" value="Virgin Islands, British">Virgin Islands, British</option>
+                                        <option class="main-color" style="background-color:black" value="Virgin Islands, U.S.">Virgin Islands, U.S.</option>
+                                        <option class="main-color" style="background-color:black" value="Wallis and Futuna">Wallis and Futuna</option>
+                                        <option class="main-color" style="background-color:black" value="Western Sahara">Western Sahara</option>
+                                        <option class="main-color" style="background-color:black" value="Yemen">Yemen</option>
+                                        <option class="main-color" style="background-color:black" value="Zambia">Zambia</option>
+                                        <option class="main-color" style="background-color:black" value="Zimbabwe">Zimbabwe</option>
+                                    </select>
+                                    <span class="glyphicon glyphicon-flag form-control-feedback"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-offset-3">
+                            <div data-100p-top="transform[swing]:translateX(25px);opacity[swing]:0" data-75p-top="transform[swing]:translateX(0);opacity[swing]:1">
+                                <button type="submit" class="btn btn-primary btn-block">Sign up</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer text-center" id="follow-us">
+        <div class="container">
+            <ul class="list-inline">
+                <li>
+                    <a href="#" title="Facebook"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="#" title="Twitter"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="#" title="Dribble"><i class="fa fa-dribbble"></i></a>
+                </li>
+                <li>
+                    <a href="#" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+                </li>
+                <li>
+                    <a href="#" title="RSS"><i class="fa fa-rss"></i></a>
+                </li>
+            </ul>
+            <p> &copy; 2016 <a href="http://jakubkwarcinski.pl" title="Jakub Kwarciński - Frontend Developer">Template designed by Jakub Kwarciński</a></p>
+            <p class="text-center"><a href="http://www.freepik.com/free-photos-vectors/people">People vector designed by Freepik</a></p>
+        </div>
+    </footer>
+
+    <!-- Scroll to top button -->
+    <div id="toTop" class="to-top">
+        <a href="#" class="To the top">
+            <i class="fa fa-angle-up"></i>
+        </a>
+    </div>
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script type="text/javascript" src="assets/bootstrap-3.3.7/dist/js/bootstrap.min.js"></script>
+
+    <!-- Lightbox -->
+    <script type="text/javascript" src="assets/lightbox2-master/dist/js/lightbox.min.js"></script>
+
+    <!-- morris charts -->
+    <script type="text/javascript" src="assets/morris.js-0.5.1/morris.min.js"></script>
+
+    <!-- jQuery parallax -->
+    <script type="text/javascript" src="js/jquery.parallax-1.1.3-min.js"></script>
+
+    <!-- jQuery countdown -->
+    <script type="text/javascript" src="js/countdown.min.js"></script>
+
+    <!-- skrollr -->
+    <script type="text/javascript" src="js/skrollr.min.js"></script>
+
+    <!-- raphael -->
+    <script src="js/raphael.min.js"></script>
+
+    <!-- particles -->
+    <script src="js/TweenLite.min.js"></script>
+    <script src="js/EasePack.min.js"></script>
+    <script src="js/rAF.min.js"></script>
+    <script src="js/particles.min.js"></script>
+
+    <!-- Custom javascript -->
+    <script type="text/javascript" src="js/custom.min.js"></script>
+
+    <!-- Main page javascript -->
+    <script type="text/javascript" src="js/main.min.js"></script>
+
+    <!-- Google maps -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEspZc-GBwxrJtw4vS3GjhAzIv7gHVbXw&callback=initMap"></script>
+
+</body>
+</html>

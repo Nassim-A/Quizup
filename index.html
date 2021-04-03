@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="description" content="Ideal template for game-related websites (gaming, communities, clans, guilds, news and entertainment content) but also for technology, CV or personal pages. Smart and compact. It's able to completely meet your needs. Unique design will increase the value of your page!">
+    <meta name="keywords" content="template, theme, html, css, bootstrap, game, event, culture, music, personal, cv">
+    <meta name="author" content="Jakub Kwarciński">
+
+    <title>QuizUp - The trivia game !</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P%7CLato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+
+    <!-- Lightbox styles -->
+    <link href="assets/lightbox2-master/dist/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Loaders styles -->
+    <link href="assets/loaders.css-master/loaders.min.css" media="screen" rel="stylesheet" type="text/css">
+
+    <!-- Template styles -->
+    <link href="css/yellow.min.css" media="screen" rel="stylesheet" type="text/css" title="yellow">
+    <link href="css/pink.min.css" media="screen" rel="alternate stylesheet" type="text/css" title="pink">
+    <link href="css/orange.min.css" media="screen" rel="alternate stylesheet" type="text/css" title="orange">
+    <link href="css/red.min.css" media="screen" rel="alternate stylesheet" type="text/css" title="red">
+    <link href="css/green.min.css" media="screen" rel="alternate stylesheet" type="text/css" title="green">
+    <link href="css/blue.min.css" media="screen" rel="alternate stylesheet" type="text/css" title="blue">
+
+    <!-- Modernizr -->
+    <script type="text/javascript" src="js/modernizr-custom.min.js"></script>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.png" type="image/png">
+
+</head>
+
+<body data-spy="scroll" data-offset="122" data-target="#main-menu" data-skrollr="true">
+
+    <!-- Preloader -->
+    <div class="loader-overlay">
+        <div class="loader">
+            <div class="loader-inner pacman">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <h3 class="loader-text">Loading</h3>
+        </div>
+    </div>
+
+    <!-- Color switcher -->
+    <div class="sidebar">
+        <a class="sidebar-switcher" href="#" title="Color switcher">
+            <i class="fa fa-gear"></i>
+        </a>
+        <div class="sidebar-content">
+            <h4 class="sidebar-header">Color switcher</h4>
+            <a href="#" class="color-switcher bg-yellow" data-color="yellow"></a>
+            <a href="#" class="color-switcher bg-orange" data-color="orange"></a>
+            <a href="#" class="color-switcher bg-pink" data-color="pink"></a>
+            <a href="#" class="color-switcher bg-red" data-color="red"></a>
+            <a href="#" class="color-switcher bg-green" data-color="green"></a>
+            <a href="#" class="color-switcher bg-blue" data-color="blue"></a>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="triangle">
+            <i class="fa fa-angle-double-down" aria-hidden="true"></i>
+        </div>
+        <!-- Topbar -->
+        <div class="header-top clearfix">
+            <div class="container">
+                <!--
+                <ul class="list-inline social-links">
+                    <li>
+                        <a href="#" title="Twitter"><i class="fa fa-twitter"></i></a>
+                    </li><li class="hidden-xs">
+                        <a href="#" title="Skype"><i class="fa fa-skype"></i></a>
+                    </li><li class="hidden-xxs">
+                        <a href="#" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+                    </li><li class="hidden-xxs">
+                        <a href="#" title="Google +"><i class="fa fa-google-plus"></i></a>
+                    </li><li>
+                        <a href="#" title="Youtube"><i class="fa fa-youtube-play"></i></a>
+                    </li><li>
+                        <a href="#" title="Facebook"><i class="fa fa-facebook"></i></a>
+                    </li>
+                </ul> -->
+                <div class="header-top-dropdown">
+                    <div class="btn-group dropdown">
+                        <button type="button" class="btn btn-link dropdown-toggle" data-toggle="dropdown">
+                            <span class="text"><i class="fa fa-user"></i> Login</span>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-right">
+                            <li>
+                                <form class="login-form" action="#">
+                                    <div class="form-group has-feedback">
+                                        <input type="text" class="form-control" placeholder="Username">
+                                        <i class="fa fa-user form-control-feedback"></i>
+                                    </div>
+                                    <div class="form-group has-feedback">
+                                        <input type="password" class="form-control" placeholder="Password">
+                                        <i class="fa fa-lock form-control-feedback"></i>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary btn-block">
+                                        <span class="text">Log In <i class="fa fa-arrow-right"></i></span>
+                                    </button>
+                                    <h3 class="text-center">or</h3>
+                                    <a href="sign_up.html">
+                                        <button type="button" class="btn btn-primary btn-block">
+                                            <span class="text">Sign Up <i class="fa fa-arrow-right"></i></span>
+                                        </button>
+                                    </a>
+                                    <p class="text-center"><a href="#" title="Reset password">Forgot your password?</a></p>
+                                    <h3 class="text-center">Sign in with your social account</h3>
+                                    <ul class="list-inline text-center">
+                                        <li>
+                                            <a href="#" title="Login with Facebook"><span class="icon-circle-small"><i class="fa fa-facebook"></i></span></a>
+                                        </li><li>
+                                            <a href="#" title="Login with Twitter"><span class="icon-circle-small"><i class="fa fa-twitter"></i></span></a>
+                                        </li><li>
+                                            <a href="#" title="Login with Google +"><span class="icon-circle-small"><i class="fa fa-google-plus"></i></span></a>
+                                        </li>
+                                    </ul>
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div><!-- Topbar end -->
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-menu">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- Logo -->
+                <a class="navbar-brand" href="index.html" title="GameR">
+                    <i class="fa fa-question-circle-o" aria-hidden="true"></i><span class="main-color">Q</span>uiz<span class="main-color">Up</span>
+                </a><!-- Logo end -->
+            </div>
+            <!-- Main menu -->
+            <div class="collapse navbar-collapse" id="main-menu">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="#home">
+                            <span class="main-link">Home</span>
+                            <span class="additional-info-link ">
+                               
+                            </span>
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="#faq">
+                            <span class="main-link">FAQ</span>
+                            <span class="additional-info-link ">
+                                
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact-details">
+                            <span class="main-link">Contact</span>
+                            <span class="additional-info-link ">
+                                
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div><!-- Main menu end -->
+        </div>
+    </div><!-- Navbar end -->
+
+    <!-- Section home -->
+    <div class="section-home" id="home">
+        <div class="overlay"></div>
+        <!-- Particles -->
+        <canvas class="particles" id="particles"></canvas>
+        <div class="container">
+            <div class="section-home-content">
+                <div class="section-icon"><span><i class="fa fa-question" aria-hidden="true"></i></span></div>
+                <div class="clearfix"></div>
+                <h2 class="digit-header">QuizUp</h2><br/>
+                <h1 class="system-header">Are you <span class="highlight">UP</span> to the challenge?</h1>
+            </div>
+        </div>
+        <div class="home-bg"></div>
+    </div>
+
+    <!-- Section FAQ -->
+    <div class="standard-section section-gray section-faq" id="faq">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="standard-header" data-100p-top="transform[swing]:translateX(25px);opacity[swing]:0" data-75p-top="transform[swing]:translateX(0);opacity[swing]:1">FAQ</h2>
+            </div>
+            <div class="text-center" data-100p-top="transform[swing]:translateX(-25px);opacity[swing]:0" data-75p-top="transform[swing]:translateX(0);opacity[swing]:1">
+                <div class="section-icon"><span><i class="fa fa-question" aria-hidden="true"></i></span></div>
+            </div>
+            <p class="section-description text-center lead">If you have any <span class="highlight">questions</span> about our <strong>game</strong> propably you can find an <span class="highlight">answer</span> in this section.</p>
+            <div class="panel-group no-margin" id="accordion">
+                <div class="panel panel-primary" data-100p-top="transform[swing]:translateX(50px);opacity[swing]:0" data-75p-top="transform[swing]:translateX(0);opacity[swing]:1">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                <span class="glyphicon glyphicon-plus"></span> What is QuizUp ?
+                                <span class="panel-icon">
+                                    <i class="fa fa-question" aria-hidden="true"></i>
+                                </span>
+                            </a>
+                        </h3>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                            <p><strong><span class="main-color">Q</span>uiz<span class="main-color">Up</span></strong> originally was a discontinued mobile game developed and published by Iceland-based Plain Vanilla Games, and later operated by Glu Mobile. The game was a mobile trivia app similar to the game Trivial Pursuit. QuizUp was a multiplayer game in which one user competes against another during seven rounds of timed multiple-choice questions of various topics. There were over 1,200 total topics available to users to choose from, and all the questions were voluntarily submitted by content contributors. Most topics were available in several different languages.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary" data-100p-top="transform[swing]:translateX(-50px);opacity[swing]:0" data-75p-top="transform[swing]:translateX(0);opacity[swing]:1">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                <span class="glyphicon glyphicon-plus"></span>  How to play ?
+                                <span class="panel-icon">
+                                    <i class="fa fa-question" aria-hidden="true"></i>
+                                </span>
+                            </a>
+                        </h3>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="no-margin">First of all, you need to create an account by clicking on the sign up button on the top right corner of the page. Once that is done, you will be able to choose a theme/category of questions and choose the game mode you wish to play : Solo / Online. A solo game consists of two mode : Training(Untimed) and Timed. While an online game will only consist of a timed game against other players or friends. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary" data-100p-top="transform[swing]:translateX(50px);opacity[swing]:0" data-75p-top="transform[swing]:translateX(0);opacity[swing]:1">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                <span class="glyphicon glyphicon-plus"></span> How is the game score calculated ?
+                                <span class="panel-icon">
+                                    <i class="fa fa-question" aria-hidden="true"></i>
+                                </span>
+                            </a>
+                        </h3>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <ol>
+                                <ul><strong>- Each game consists of 10 questions.</strong></ul>
+                                <ul><strong>- The player with the highest score wins.</strong></ul>
+                                <ul><strong>- Each question has a timer of 20 seconds.</strong></ul>
+                                <ul><strong>- Wrong answer : 0 points.</strong></ul>
+                                <ul><strong>- Right answer : 10 points &times; (Time left  &#247; 10).</strong></ul>
+                                <ul><strong>- For example : If a player has found the right answer within 12 seconds, his current score would be : 8 points (10 points &times; 0.8). </strong></ul>
+                                <ul><strong>- The score of the game is the sum of the questions' scores.</strong></ul>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section partners (carousel) 
+    <div class="standard-section section-promo section-partners" id="partners">
+        <div class="triangle triangle-up" data-100p-top="top[swing]:-54px" data-75p-top="top[swing]:-24px">
+            <i class="fa fa-plus" aria-hidden="true"></i>
+        </div>
+        <div class="triangle triangle-down" data-100p-top="bottom[swing]:-70px" data-75p-top="bottom[swing]:-40px">
+            <i class="fa fa-plus" aria-hidden="true"></i>
+        </div>
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="text-center">
+                <h2 class="standard-header" data-100p-top="transform[swing]:translateX(25px);opacity[swing]:0" data-75p-top="transform[swing]:translateX(0);opacity[swing]:1">Partners</h2>
+            </div>
+            <div id="carousel-partners" class="carousel carousel-partners slide" data-ride="carousel" data-interval="7000">
+                <div class="carousel-inner">
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-4">
+                                <div class="client">
+                                    <a href="#">
+                                        <img class="img-responsive" src="img/facebook.png" alt="Facebook">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4">
+                                <div class="client">
+                                    <a href="#">
+                                        <img class="img-responsive" src="img/twitter.png" alt="Twitter">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4">
+                                <div class="client">
+                                    <a href="#">
+                                        <img class="img-responsive" src="img/wordpress.png" alt="Wordpress">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="visible-sm"></div>
+                            <div class="col-md-2 col-sm-4">
+                                <div class="client">
+                                    <a href="#">
+                                        <img class="img-responsive" src="img/linkedin.png" alt="LinkedIn">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4">
+                                <div class="client">
+                                    <a href="#">
+                                        <img class="img-responsive" src="img/joomla.png" alt="Joomla">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4">
+                                <div class="client">
+                                    <a href="#">
+                                        <img class="img-responsive" src="img/vimeo.png" alt="Vimeo">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item active">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-4">
+                                <div class="client">
+                                    <a href="#">
+                                        <img class="img-responsive" src="img/wordpress.png" alt="Wordpress">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4">
+                                <div class="client">
+                                    <a href="#">
+                                        <img class="img-responsive" src="img/joomla.png" alt="Joomla">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="visible-sm"></div>
+                            <div class="col-md-2 col-sm-4">
+                                <div class="client">
+                                    <a href="#">
+                                        <img class="img-responsive" src="img/facebook.png" alt="Facebook">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4">
+                                <div class="client">
+                                    <a href="#">
+                                        <img class="img-responsive" src="img/vimeo.png" alt="Vimeo">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="visible-sm"></div>
+                            <div class="col-md-2 col-sm-4">
+                                <div class="client">
+                                    <a href="#">
+                                        <img class="img-responsive" src="img/twitter.png" alt="Twitter">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4">
+                                <div class="client">
+                                    <a href="#">
+                                        <img class="img-responsive" src="img/linkedin.png" alt="LinkedIn">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#carousel-partners" data-slide="prev">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                <a class="right carousel-control" href="#carousel-partners" data-slide="next">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                <ol class="carousel-indicators" data-100p-top="transform[swing]:translateY(25px);opacity[swing]:0" data-75p-top="transform[swing]:translateY(0);opacity[swing]:1">
+                    <li data-target="#carousel-partners" data-slide-to="0"></li>
+                    <li data-target="#carousel-partners" data-slide-to="1" class="active"></li>
+                </ol>
+            </div>
+        </div>
+    </div> 
+    -->
+
+    <!-- Section contact details -->
+    <div class="standard-section section-contact-details" id="contact-details">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div data-100p-top="transform[swing]:translateX(-25px);opacity[swing]:0" data-75p-top="transform[swing]:translateX(0);opacity[swing]:1">
+                        <h3>Contact Details</h3>
+                        <p><strong><a href="https://www.uvsq.fr/">UVSQ website</a></strong></p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div data-100p-top="transform[swing]:translateX(25px);opacity[swing]:0" data-75p-top="transform[swing]:translateX(0);opacity[swing]:1">
+                       
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div data-100p-top="transform[swing]:translateX(25px);opacity[swing]:0" data-75p-top="transform[swing]:translateX(0);opacity[swing]:1">
+                        <h3>Versailles</h3>
+                        <p>UVSQ Université de Versailles-Saint-Quentin-en-Yvelines </p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer text-center" id="follow-us">
+        <div class="container">
+            <ul class="list-inline">
+                <li>
+                    <a href="#" title="Facebook"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="#" title="Twitter"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="#" title="Dribble"><i class="fa fa-dribbble"></i></a>
+                </li>
+                <li>
+                    <a href="#" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+                </li>
+                <li>
+                    <a href="#" title="RSS"><i class="fa fa-rss"></i></a>
+                </li>
+            </ul>
+            <p> &copy; 2016 <a href="http://jakubkwarcinski.pl" title="Jakub Kwarciński - Frontend Developer">Template designed by Jakub Kwarciński</a></p>
+            <p class="text-center"><a href="http://www.freepik.com/free-photos-vectors/people">People vector designed by Freepik</a></p>
+        </div>
+    </footer>
+
+    <!-- Scroll to top button -->
+    <div id="toTop" class="to-top">
+        <a href="#" class="To the top">
+            <i class="fa fa-angle-up"></i>
+        </a>
+    </div>
+
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script type="text/javascript" src="assets/bootstrap-3.3.7/dist/js/bootstrap.min.js"></script>
+
+    <!-- Lightbox -->
+    <script type="text/javascript" src="assets/lightbox2-master/dist/js/lightbox.min.js"></script>
+
+    <!-- morris charts -->
+    <script type="text/javascript" src="assets/morris.js-0.5.1/morris.min.js"></script>
+
+    <!-- jQuery parallax -->
+    <script type="text/javascript" src="js/jquery.parallax-1.1.3-min.js"></script>
+
+    <!-- jQuery countdown -->
+    <script type="text/javascript" src="js/countdown.min.js"></script>
+
+    <!-- skrollr -->
+    <script type="text/javascript" src="js/skrollr.min.js"></script>
+
+    <!-- raphael -->
+    <script src="js/raphael.min.js"></script>
+
+    <!-- particles -->
+    <script src="js/TweenLite.min.js"></script>
+    <script src="js/EasePack.min.js"></script>
+    <script src="js/rAF.min.js"></script>
+    <script src="js/particles.min.js"></script>
+
+    <!-- Custom javascript -->
+    <script type="text/javascript" src="js/custom.min.js"></script>
+
+    <!-- Main page javascript -->
+    <script type="text/javascript" src="js/main.min.js"></script>
+
+    <!-- Google maps -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEspZc-GBwxrJtw4vS3GjhAzIv7gHVbXw&callback=initMap"></script>
+
+</body>
+</html>
